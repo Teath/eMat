@@ -1,4 +1,4 @@
-eMat-EST
+eMat
 ========
 
 Matemaatiliste võrrandite harjutamise programm
