@@ -1,0 +1,13 @@
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\bin\Debug\eMat.exe.config
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.Form1.resources
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.Form2.resources
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.Resources.resources
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.vbproj.GenerateResource.Cache
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\bin\Debug\eMat.exe
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\bin\Debug\eMat.pdb
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\bin\Debug\eMat.xml
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.exe
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.xml
+c:\users\kristo\documents\visual studio 2012\Projects\eMat\eMat\obj\Debug\eMat.pdb
+C:\Users\Kristo\Documents\Visual Studio 2012\Projects\eMat\eMat\obj\Debug\eMat.Form3.resources
+C:\Users\Kristo\Documents\Visual Studio 2012\Projects\eMat\eMat\obj\Debug\eMat.Form4.resources
