@@ -1,7 +1,6 @@
 eMat
 ========
 
---------------------------------------------------------
 KIRJELDUS:
 --------------------------------------------------------
 Matemaatiliste võrrandite harjutamise programm
@@ -18,8 +17,7 @@ Funktsioonid:
 - Lihtne kasutada
 - Võtab väga vähe ruumi
 
---------------------------------------------------------
-KUIDAS KASUTADA
+KUIDAS KASUTADA:
 --------------------------------------------------------
 
 Allalaadimiseks on kaks võimalust.
@@ -34,7 +32,6 @@ Kui programm ei käivitu, võib põhjuseks olla vajaliku runtime-i puudumine. .N
 
 Programm töötab AINULT Windowsi operatsioonisüsteemidel!
 
---------------------------------------------------------
 LISAINFO:
 --------------------------------------------------------
 
