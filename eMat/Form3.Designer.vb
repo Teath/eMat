@@ -50,8 +50,6 @@ Partial Class Form3
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label25 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -195,7 +193,7 @@ Partial Class Form3
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(147, 122)
+        Me.Label12.Location = New System.Drawing.Point(147, 125)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(81, 13)
         Me.Label12.TabIndex = 15
@@ -246,7 +244,7 @@ Partial Class Form3
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(148, 177)
+        Me.Label18.Location = New System.Drawing.Point(148, 180)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(65, 13)
         Me.Label18.TabIndex = 21
@@ -306,26 +304,6 @@ Partial Class Form3
         Me.Label23.Text = "Vastused"
         Me.Label23.Visible = False
         '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Location = New System.Drawing.Point(210, 88)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(18, 13)
-        Me.Label24.TabIndex = 28
-        Me.Label24.Text = "x1"
-        Me.Label24.Visible = False
-        '
-        'Label25
-        '
-        Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(210, 99)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(18, 13)
-        Me.Label25.TabIndex = 29
-        Me.Label25.Text = "x2"
-        Me.Label25.Visible = False
-        '
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(92, 7)
@@ -364,8 +342,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label22)
@@ -432,8 +408,6 @@ Partial Class Form3
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Label23 As System.Windows.Forms.Label
-    Friend WithEvents Label24 As System.Windows.Forms.Label
-    Friend WithEvents Label25 As System.Windows.Forms.Label
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button

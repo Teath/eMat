@@ -67,7 +67,7 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "eMat - 1.1.0.102"
+        Me.Text = "eMat - 1.1.0.121"
         Me.ResumeLayout(false)
         Me.PerformLayout
 
