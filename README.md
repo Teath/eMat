@@ -23,6 +23,7 @@ KUIDAS KASUTADA:
 Allalaadimiseks on kaks võimalust.
 
 1) Laadida alla kogu lähtekood ning kompileerida programm ise. Selleks tuleb tõmmata alla kogu projekt.
+
 2) Laadida alla juba kompileeritud viimane versioon. See asub kaustas eMat/bin/Release ja on nimega eMat.exe. Vajutades failile on võimalik see alla laadida nupuga View Raw.
 
 Programmi käivitamiseks klõpsake allalaaditud failil.
