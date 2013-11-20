@@ -10,4 +10,12 @@
             Me.Close()
         End If
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim oForm As Form1
+        oForm = New Form1()
+        oForm.Show()
+        oForm = Nothing
+        Me.Close()
+    End Sub
 End Class

@@ -25,6 +25,7 @@ Partial Class Form2
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'ListBox1
@@ -47,25 +48,35 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(77, 150)
+        Me.Button1.Location = New System.Drawing.Point(75, 150)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(82, 28)
         Me.Button1.TabIndex = 2
-        Me.Button1.Text = "OK"
+        Me.Button1.Text = "Vali"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(75, 180)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(82, 28)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "Tagasi"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(241, 190)
+        Me.ClientSize = New System.Drawing.Size(239, 220)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListBox1)
         Me.MaximizeBox = False
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Harjutamine - Menüü"
+        Me.Text = "eMat - Vali võrrand"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -73,4 +84,5 @@ Partial Class Form2
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class
