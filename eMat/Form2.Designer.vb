@@ -31,7 +31,7 @@ Partial Class Form2
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Items.AddRange(New Object() {"Ruutvõrrand:", "ax²+bx+c = d", "ax²+bx+c = 0", "x²+bx+c = 0", "ax²+bx = 0", "x²+bx = 0", "Kõik võrranditüübid"})
+        Me.ListBox1.Items.AddRange(New Object() {"Ruutvõrrand:", "ax²+bx+c = d", "ax²+bx+c = 0", "x²+bx+c = 0", "ax²+bx = 0", "ax²+c = 0", "Kõik võrranditüübid"})
         Me.ListBox1.Location = New System.Drawing.Point(31, 23)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(178, 121)

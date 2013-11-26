@@ -79,10 +79,12 @@ Public Class Form3
         Randomize()
         Dim x1 As Integer
         Dim x2 As Integer
-        Dim ran2 As Integer = CInt(Int((100 * Rnd()) + 2))
-        Label2.Text = "x² - " + ran2.ToString() + "x = 0"
+        Dim ran1 As Integer = CInt(Int((12 * Rnd()) + 2)) ' a
+        Dim ran2 As Integer = CInt(Int((14 * Rnd()) + 2)) ' x
+        Dim c As Integer = ran1 * ran2 ^ 2
+        Label2.Text = ran1.ToString() + "x² - " + c.ToString() + " = 0"
         x1 = ran2
-        x2 = 0
+        x2 = -ran2
         Label23.Text = x1.ToString + ", " + x2.ToString
         Var1.x1 = x1.ToString
         Var1.x2 = x2.ToString
@@ -123,7 +125,7 @@ Public Class Form3
             genType4()
         ElseIf Var1.vTyyp = 5 Then
             TextBox2.Enabled = True
-            Label8.Text = "x²+bx=0"
+            Label8.Text = "ax²+c=0"
             genType5()
         ElseIf Var1.vTyyp = 6 Then
             TextBox2.Enabled = True
@@ -231,6 +233,7 @@ Public Class Form3
         Label22.Text = ""
         TextBox1.Text = ""
         TextBox2.Text = ""
+        Label25.Text = Label2.Text
         genHandler()
     End Sub
 

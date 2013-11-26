@@ -54,13 +54,15 @@ Partial Class Info
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(243, 235)
-        Me.TextBox1.TabIndex = 3
+        Me.TextBox1.ShortcutsEnabled = False
+        Me.TextBox1.Size = New System.Drawing.Size(243, 268)
+        Me.TextBox1.TabIndex = 100
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(89, 298)
+        Me.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Button1.Location = New System.Drawing.Point(89, 326)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(108, 30)
         Me.Button1.TabIndex = 4
@@ -69,9 +71,10 @@ Partial Class Info
         '
         'Info
         '
+        Me.AcceptButton = Me.Button1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 340)
+        Me.ClientSize = New System.Drawing.Size(284, 370)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
