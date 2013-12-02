@@ -25,4 +25,23 @@
         oForm2.Show()
         oForm2 = Nothing
     End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If Var1.firstLoad = True Then
+            Var1.firstLoad = False
+            BackgroundWorker1.RunWorkerAsync()
+        End If
+    End Sub
+    Private Sub BackgroundWorker1_DoWork(sender As Object, e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
+        Dim req As New System.Net.WebClient
+        Dim newVer
+        Try
+            newVer = req.DownloadString("https://raw.github.com/Teath/eMat/master/version.txt")
+        Catch ex As Exception
+            End
+        End Try
+        If newVer <> Var1.version Then
+            MsgBox("Uus versioon on saadaval! Laadige alla siit: http://teath.net/emat")
+        End If
+    End Sub
 End Class
