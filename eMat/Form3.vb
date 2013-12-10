@@ -65,8 +65,8 @@ Public Class Form3
         Randomize()
         Dim x1 As Decimal
         Dim x2 As Decimal
-        Dim ran1 As Integer = CInt(Int((40 * Rnd()) + 1))
-        Dim ran2 As Integer = CInt(Int((40 * Rnd()) + 1))
+        Dim ran1 As Integer = CInt(Int((40 * Rnd()) + 2))
+        Dim ran2 As Integer = CInt(Int((40 * Rnd()) + 2))
         Label2.Text = ran1.ToString() + "x² - " + ran2.ToString() + "x = 0"
         x1 = ran2 / ran1
         x2 = 0
@@ -90,47 +90,21 @@ Public Class Form3
         Var1.x2 = x2.ToString
     End Function
 
-    Public Function genTypeRan()
+    Public Function genHandler()
         Randomize()
         Dim genNum As Integer = CInt(Int((4 * Rnd()) + 1))
-        If genNum = 1 Then
+        If genNum = 1 And Var1.vt1 = True Then
             genType1()
-        ElseIf genNum = 2 Then
+        ElseIf genNum = 2 And Var1.vt2 = True Then
             genType2()
-        ElseIf genNum = 3 Then
+        ElseIf genNum = 3 And Var1.vt3 = True Then
             genType3()
-        ElseIf genNum = 4 Then
+        ElseIf genNum = 4 And Var1.vt4 = True Then
             genType4()
-        ElseIf genNum = 5 Then
+        ElseIf genNum = 5 And Var1.vt5 = True Then
             genType5()
-        End If
-    End Function
-
-    Private Function genHandler()
-        If Var1.vTyyp = 1 Then
-            TextBox2.Enabled = True
-            Label8.Text = "ax²+bx+c=d"
-            genType1()
-        ElseIf Var1.vTyyp = 2 Then
-            TextBox2.Enabled = True
-            Label8.Text = "ax²+bx+c=0"
-            genType2()
-        ElseIf Var1.vTyyp = 3 Then
-            TextBox2.Enabled = True
-            Label8.Text = "x²+bx+c=0"
-            genType3()
-        ElseIf Var1.vTyyp = 4 Then
-            TextBox2.Enabled = True
-            Label8.Text = "ax²+bx=0"
-            genType4()
-        ElseIf Var1.vTyyp = 5 Then
-            TextBox2.Enabled = True
-            Label8.Text = "ax²+c=0"
-            genType5()
-        ElseIf Var1.vTyyp = 6 Then
-            TextBox2.Enabled = True
-            Label8.Text = "Ruutvõrrandid"
-            genTypeRan()
+        Else
+            genHandler()
         End If
     End Function
 
@@ -141,6 +115,7 @@ Public Class Form3
             Button5.Enabled = True
         End If
         TextBox1.Enabled = True
+        TextBox2.Enabled = True
         genHandler()
     End Sub
 
