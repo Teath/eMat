@@ -41,7 +41,7 @@
             End
         End Try
         If newVer <> Var1.version Then
-            MsgBox("Uus versioon on saadaval! Laadige alla siit: http://teath.net/emat")
+            MsgBox("Uuem versioon on saadaval! Laadige alla siit: http://teath.net/emat")
         End If
     End Sub
 End Class

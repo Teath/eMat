@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("eMat")> 
 <Assembly: AssemblyDescription("Matemaatiliste võrrandite lahendamise programm")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyCompany("Kristo Lippur")> 
 <Assembly: AssemblyProduct("eMat")> 
 <Assembly: AssemblyCopyright("Copyright © 2013 Kristo Lippur")> 
 <Assembly: AssemblyTrademark("")> 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.2.0.18")> 
-<Assembly: AssemblyFileVersion("1.2.0.18")> 
+<Assembly: AssemblyVersion("1.2.0.20")> 
+<Assembly: AssemblyFileVersion("1.2.0.20")> 

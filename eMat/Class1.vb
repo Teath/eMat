@@ -15,7 +15,7 @@
     Public Shared s_showAnswer As Boolean = True
     Public Shared s_stats As Boolean = True
 
-    Public Shared version As String = "v1.2.100"
+    Public Shared version As String = "v1.2.200"
 
     Public Shared firstLoad As Boolean = True
 End Class
