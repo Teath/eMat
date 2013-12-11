@@ -1,4 +1,5 @@
-﻿Public Class Form1
+﻿Imports System.Text.RegularExpressions
+Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim oForm2 As Form2
         oForm2 = New Form2()
@@ -40,7 +41,8 @@
         Catch ex As Exception
             End
         End Try
-        If newVer <> Var1.version Then
+        Dim cleanNewVer = Regex.Match(newVer, "(v[0-9]+\.[0-9]+\.[0-9]+)").ToString
+        If cleanNewVer <> Var1.version Then
             MsgBox("Uuem versioon on saadaval! Laadige alla siit: http://teath.net/emat")
         End If
     End Sub
