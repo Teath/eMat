@@ -16,6 +16,7 @@ Funktsioonid:
 - 100% eesti keeles
 - Lihtne kasutada
 - Võtab väga vähe ruumi
+- Teavitab uuest versioonist
 
 KUIDAS KASUTADA:
 --------------------------------------------------------
