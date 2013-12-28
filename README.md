@@ -8,7 +8,7 @@ Matemaatiliste võrrandite harjutamise programm
 Programm genereerib valemi alusel erinevat tüüpi võrrandeid. Peale kasutaja poolt vastuse sisestamist kontrollitakse vastus ning kuvatakse uus võrrand.
 
 Funktsioonid:
-- 5 erinevat võrraditüüpi
+- 5 erinevat võrranditüüpi
 - Vastuste statistika
 - Märkmete aken
 - Vastuste kontrollimine
