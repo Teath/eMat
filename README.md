@@ -40,7 +40,7 @@ LISAINFO:
 
 Programm on kirjutatud Visual Basic keelt kasutades.
 
-Programmi autor on Kristo Lippur. Programmi on lubatud levitada, muuta, ning kasutada oma otstarbeks niikaua, kuni säilitatakse programmis kiri "© 2013 Kristo Lippur".
+Programmi autor on Kristo Lippur. Programmi on lubatud levitada, muuta, ning kasutada isiklikuks ja/või õppeotstarbeks niikaua, kuni säilitatakse programmis kiri "© 2013 Kristo Lippur".
 Programmi ei ole lubatud kasutada tulusaamise eesmärgil.
 
 ---------
