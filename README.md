@@ -8,7 +8,7 @@ Matemaatiliste võrrandite harjutamise programm
 Programm genereerib valemi alusel erinevat tüüpi võrrandeid. Peale kasutaja poolt vastuse sisestamist kontrollitakse vastus ning kuvatakse uus võrrand.
 
 Funktsioonid:
-- 5 erinevat võrraditüüpi
+- 5 erinevat võrranditüüpi
 - Vastuste statistika
 - Märkmete aken
 - Vastuste kontrollimine
@@ -16,6 +16,7 @@ Funktsioonid:
 - 100% eesti keeles
 - Lihtne kasutada
 - Võtab väga vähe ruumi
+- Teavitab uuest versioonist
 
 KUIDAS KASUTADA:
 --------------------------------------------------------
@@ -24,7 +25,7 @@ Allalaadimiseks on kaks võimalust.
 
 1) Laadida alla kogu lähtekood ning kompileerida programm ise. Selleks tuleb tõmmata alla kogu projekt. Selle meetodi kasutamine eeldab teatavat vilumust programmi Visual Studio kasutamisel.
 
-2) Laadida alla juba kompileeritud uusim versioon. Seda saate teha klikates siia: https://github.com/Teath/eMat/blob/master/eMat/bin/Release/eMat.exe?raw=true
+**2) Laadida alla juba kompileeritud uusim versioon. Seda saate teha klikates siia: https://github.com/Teath/eMat/blob/master/eMat/bin/Release/eMat.exe?raw=true**
 
 
 Programmi käivitamiseks klõpsake allalaaditud failil.
@@ -39,7 +40,7 @@ LISAINFO:
 
 Programm on kirjutatud Visual Basic keelt kasutades.
 
-Programmi autor on Kristo Lippur. Programmi on lubatud levitada, muuta, ning kasutada oma otstarbeks niikaua, kuni säilitatakse programmis kiri "© 2013 Kristo Lippur".
+Programmi autor on Kristo Lippur. Programmi on lubatud levitada, muuta, ning kasutada isiklikuks ja/või õppeotstarbeks niikaua, kuni säilitatakse programmis kiri "© 2013 Kristo Lippur".
 Programmi ei ole lubatud kasutada tulusaamise eesmärgil.
 
 ---------
