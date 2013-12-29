@@ -46,4 +46,12 @@ Public Class Form1
             MsgBox("Uuem versioon on saadaval! Laadige alla siit: http://teath.net/emat")
         End If
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Dim oForm As TKValik
+        oForm = New TKValik()
+        oForm.Show()
+        oForm = Nothing
+        Me.Close()
+    End Sub
 End Class

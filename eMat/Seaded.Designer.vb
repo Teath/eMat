@@ -72,7 +72,7 @@ Partial Class Seaded
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(103, 121)
+        Me.Button1.Location = New System.Drawing.Point(103, 123)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 24)
         Me.Button1.TabIndex = 5
@@ -83,7 +83,7 @@ Partial Class Seaded
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 163)
+        Me.ClientSize = New System.Drawing.Size(284, 167)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.CheckBox2)

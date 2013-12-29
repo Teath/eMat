@@ -30,6 +30,7 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -54,7 +55,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(98, 226)
+        Me.Label2.Location = New System.Drawing.Point(98, 263)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(104, 13)
         Me.Label2.TabIndex = 3
@@ -62,7 +63,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(70, 105)
+        Me.Button2.Location = New System.Drawing.Point(70, 142)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(167, 30)
         Me.Button2.TabIndex = 4
@@ -71,7 +72,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(70, 177)
+        Me.Button3.Location = New System.Drawing.Point(70, 214)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(167, 30)
         Me.Button3.TabIndex = 5
@@ -80,7 +81,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(70, 141)
+        Me.Button4.Location = New System.Drawing.Point(70, 178)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(167, 30)
         Me.Button4.TabIndex = 6
@@ -90,11 +91,21 @@ Partial Class Form1
         'BackgroundWorker1
         '
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(70, 105)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(167, 31)
+        Me.Button5.TabIndex = 7
+        Me.Button5.Text = "Tunnikontroll"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(305, 265)
+        Me.ClientSize = New System.Drawing.Size(305, 299)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -118,5 +129,6 @@ End Sub
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents Button5 As System.Windows.Forms.Button
 
 End Class

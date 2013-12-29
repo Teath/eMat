@@ -93,12 +93,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="Class1.vb" />
+    <Compile Include="TKPohi.Designer.vb">
+      <DependentUpon>TKPohi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TKPohi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKValik.Designer.vb">
+      <DependentUpon>TKValik.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TKValik.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form2.Designer.vb">
@@ -151,6 +163,12 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TKPohi.resx">
+      <DependentUpon>TKPohi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKValik.resx">
+      <DependentUpon>TKValik.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
@@ -174,6 +192,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
