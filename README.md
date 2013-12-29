@@ -17,6 +17,7 @@ Funktsioonid:
 - Lihtne kasutada
 - Võtab väga vähe ruumi
 - Teavitab uuest versioonist
+- Tunnikontrolli režiim
 
 KUIDAS KASUTADA:
 --------------------------------------------------------
