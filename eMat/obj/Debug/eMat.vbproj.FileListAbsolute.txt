@@ -27,5 +27,3 @@ C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Debug\eMat.vbproj.GenerateResourc
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\bin\Debug\eMat.exe
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\bin\Debug\eMat.pdb
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\bin\Debug\eMat.xml
-C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Debug\eMat.TKValik.resources
-C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Debug\eMat.TKPohi.resources

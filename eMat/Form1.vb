@@ -48,10 +48,10 @@ Public Class Form1
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Dim oForm As TKValik
-        oForm = New TKValik()
-        oForm.Show()
-        oForm = Nothing
+        Dim oForm2 As TKValik
+        oForm2 = New TKValik()
+        oForm2.Show()
+        oForm2 = Nothing
         Me.Close()
     End Sub
 End Class

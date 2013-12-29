@@ -28,6 +28,7 @@ Partial Class Seaded
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -72,18 +73,28 @@ Partial Class Seaded
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(103, 123)
+        Me.Button1.Location = New System.Drawing.Point(98, 146)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(84, 24)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Tagasi"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(57, 130)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(172, 13)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Seaded ei kehti tunnikontrolli puhul"
+        '
         'Seaded
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 167)
+        Me.ClientSize = New System.Drawing.Size(284, 182)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.CheckBox2)
@@ -104,4 +115,5 @@ Partial Class Seaded
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class

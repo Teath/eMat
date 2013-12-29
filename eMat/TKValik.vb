@@ -1,11 +1,11 @@
 ﻿Public Class TKValik
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Var1.tkVtArv > 0 Then
-            Dim oForm As TKPohi
-            oForm = New TKPohi()
-            oForm.Show()
-            oForm = Nothing
+        If tkVtArv > 0 Then
+            Dim oForm3 As TKPohi
+            oForm3 = New TKPohi()
+            oForm3.Show()
+            oForm3 = Nothing
             Me.Close()
         Else
             MsgBox("Vali vähemalt üks võrranditüüp!")
@@ -22,86 +22,97 @@
 
     Private Sub TKValik_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         tkVtArv = 0
+        tkVt1 = False
+        tkVt2 = False
+        tkVt3 = False
+        tkVt4 = False
+        tkVt5 = False
+        tkOige = 0
+        tkVale = 0
         tkVArv = 1
         tkAjaLim = False
         tkAegMin = 1
         tkAegSek = 0
+        tkCanc = False
+        tkEelVas = False
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
-        Var1.tkVt1 = CheckBox1.Checked
-        If Var1.tkVt1 = True Then
-            Var1.tkVtArv = Var1.tkVtArv + 1
+        tkVt1 = CheckBox1.Checked
+        If tkVt1 = True Then
+            tkVtArv = tkVtArv + 1
         Else
-            Var1.tkVtArv = Var1.tkVtArv - 1
+            tkVtArv = tkVtArv - 1
         End If
     End Sub
 
     Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
-        Var1.tkVt2 = CheckBox2.Checked
-        If Var1.tkVt2 = True Then
-            Var1.tkVtArv = Var1.tkVtArv + 1
+        tkVt2 = CheckBox2.Checked
+        If tkVt2 = True Then
+            tkVtArv = tkVtArv + 1
         Else
-            Var1.tkVtArv = Var1.tkVtArv - 1
+            tkVtArv = tkVtArv - 1
         End If
     End Sub
 
     Private Sub CheckBox3_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox3.CheckedChanged
-        Var1.tkVt3 = CheckBox3.Checked
-        If Var1.tkVt3 = True Then
-            Var1.tkVtArv = Var1.tkVtArv + 1
+        tkVt3 = CheckBox3.Checked
+        If tkVt3 = True Then
+            tkVtArv = tkVtArv + 1
         Else
-            Var1.tkVtArv = Var1.tkVtArv - 1
+            tkVtArv = tkVtArv - 1
         End If
     End Sub
 
     Private Sub CheckBox4_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox4.CheckedChanged
-        Var1.tkVt4 = CheckBox4.Checked
-        If Var1.tkVt4 = True Then
-            Var1.tkVtArv = Var1.tkVtArv + 1
+        tkVt4 = CheckBox4.Checked
+        If tkVt4 = True Then
+            tkVtArv = tkVtArv + 1
         Else
-            Var1.tkVtArv = Var1.tkVtArv - 1
+            tkVtArv = tkVtArv - 1
         End If
     End Sub
 
     Private Sub CheckBox5_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox5.CheckedChanged
-        Var1.tkVt5 = CheckBox5.Checked
-        If Var1.tkVt5 = True Then
-            Var1.tkVtArv = Var1.tkVtArv + 1
+        tkVt5 = CheckBox5.Checked
+        If tkVt5 = True Then
+            tkVtArv = tkVtArv + 1
         Else
-            Var1.tkVtArv = Var1.tkVtArv - 1
+            tkVtArv = tkVtArv - 1
         End If
     End Sub
 
-
-    Private Sub AegVal_ValueChanged(sender As Object, e As EventArgs) Handles AegVal.ValueChanged
-        If AegVal.Value > 1 Then
-            minut.Text = "minutit"
-        Else
-            minut.Text = "minut"
-        End If
-        tkAegMin = AegVal.Value
+    Private Sub VArvNum_ValueChanged(sender As Object, e As EventArgs) Handles VArvNum.ValueChanged
+        tkVArv = VArvNum.Value
     End Sub
 
-    Private Sub AegPiirm_CheckedChanged(sender As Object, e As EventArgs) Handles AegPiirm.CheckedChanged
-        If AegPiirm.Checked = True Then
+    Private Sub AjaLimOff_CheckedChanged(sender As Object, e As EventArgs) Handles AjaLimOff.CheckedChanged
+        If AjaLimOff.Checked Then
             tkAjaLim = False
         Else
             tkAjaLim = True
         End If
     End Sub
 
-    Private Sub AegPiird_CheckedChanged(sender As Object, e As EventArgs) Handles AegPiird.CheckedChanged
-        If AegPiird.Checked = True Then
-            tkAjaLim = True
-            AegVal.Enabled = True
+    Private Sub AjaLimOn_CheckedChanged(sender As Object, e As EventArgs) Handles AjaLimOn.CheckedChanged
+        tkAjaLim = AjaLimOn.Checked
+        AjaLimNum.Enabled = AjaLimOn.Checked
+    End Sub
+
+    Private Sub AjaLimNum_ValueChanged(sender As Object, e As EventArgs) Handles AjaLimNum.ValueChanged
+        tkAegMin = AjaLimNum.Value
+        If AjaLimNum.Value > 1 Then
+            LblMinut.Text = "minutit"
         Else
-            tkAjaLim = False
-            AegVal.Enabled = False
+            LblMinut.Text = "minut"
         End If
     End Sub
 
-    Private Sub vArvVal_ValueChanged(sender As Object, e As EventArgs) Handles vArvVal.ValueChanged
-        tkVArv = vArvVal.Value
+    Private Sub CancOnOff_CheckedChanged(sender As Object, e As EventArgs) Handles CancOnOff.CheckedChanged
+        tkCanc = CancOnOff.Checked
+    End Sub
+
+    Private Sub EelVasOnOff_CheckedChanged(sender As Object, e As EventArgs) Handles EelVasOnOff.CheckedChanged
+        tkEelVas = EelVasOnOff.Checked
     End Sub
 End Class

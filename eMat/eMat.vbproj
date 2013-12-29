@@ -93,18 +93,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="TKPohi.Designer.vb">
-      <DependentUpon>TKPohi.vb</DependentUpon>
-    </Compile>
-    <Compile Include="TKPohi.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Module1.vb" />
+    <Compile Include="Class1.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKPohi.Designer.vb">
+      <DependentUpon>TKPohi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TKPohi.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TKValik.Designer.vb">
@@ -192,7 +192,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>

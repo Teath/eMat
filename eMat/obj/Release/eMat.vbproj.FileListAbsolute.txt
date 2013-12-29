@@ -43,5 +43,5 @@ C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.Info.resources
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.Resources.resources
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.Seaded.resources
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.vbproj.GenerateResource.Cache
-C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.TKPohi.resources
-C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.TKValik.resources
+C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\obj\Release\eMat.TKPohi.resources
+C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\obj\Release\eMat.TKValik.resources

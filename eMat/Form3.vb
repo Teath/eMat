@@ -22,8 +22,8 @@ Public Class Form3
         End If
         x2 = (-ran2 - Math.Sqrt(ran2 ^ 2 - 4 * ran1 * (rls - ran3))) / (2 * ran1)
         Label23.Text = x1.ToString + ", " + (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
-        Var1.x1 = x1.ToString
-        Var1.x2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
+        Var1.vx1 = x1.ToString
+        Var1.vx2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
     End Function
 
     Public Function genType2()
@@ -40,8 +40,8 @@ Public Class Form3
         End If
         x2 = (-ran2 - Math.Sqrt(ran2 ^ 2 - 4 * ran1 * rls)) / (2 * ran1)
         Label23.Text = x1.ToString + ", " + (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
-        Var1.x1 = x1.ToString
-        Var1.x2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
+        Var1.vx1 = x1.ToString
+        Var1.vx2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
     End Function
 
     Public Function genType3()
@@ -57,8 +57,8 @@ Public Class Form3
         End If
         x2 = (-ran2 - Math.Sqrt(ran2 ^ 2 - 4 * rls)) / 2
         Label23.Text = x1.ToString + ", " + (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
-        Var1.x1 = x1.ToString
-        Var1.x2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
+        Var1.vx1 = x1.ToString
+        Var1.vx2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
     End Function
 
     Public Function genType4()
@@ -71,8 +71,8 @@ Public Class Form3
         x1 = ran2 / ran1
         x2 = 0
         Label23.Text = (Math.Round(x1, 3, MidpointRounding.AwayFromZero)).ToString + ", " + (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
-        Var1.x1 = (Math.Round(x1, 3, MidpointRounding.AwayFromZero)).ToString
-        Var1.x2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
+        Var1.vx1 = (Math.Round(x1, 3, MidpointRounding.AwayFromZero)).ToString
+        Var1.vx2 = (Math.Round(x2, 3, MidpointRounding.AwayFromZero)).ToString
     End Function
 
     Public Function genType5()
@@ -86,8 +86,8 @@ Public Class Form3
         x1 = ran2
         x2 = -ran2
         Label23.Text = x1.ToString + ", " + x2.ToString
-        Var1.x1 = x1.ToString
-        Var1.x2 = x2.ToString
+        Var1.vx1 = x1.ToString
+        Var1.vx2 = x2.ToString
     End Function
 
     Public Function genHandler()
@@ -120,15 +120,15 @@ Public Class Form3
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Label15.Text = Var1.x1
-        Label17.Text = Var1.x2
+        Label15.Text = Var1.vx1
+        Label17.Text = Var1.vx2
         Label21.Text = TextBox1.Text
         Label22.Text = TextBox2.Text
         Label25.Text = Label2.Text
-        If TextBox1.Text = Var1.x1 And TextBox2.Text = Var1.x2 Then
+        If TextBox1.Text = Var1.vx1 And TextBox2.Text = Var1.vx2 Then
             Var1.oige = Var1.oige + 1
             Label26.Text = "Õige!"
-        ElseIf TextBox1.Text = Var1.x2 And TextBox2.Text = Var1.x1 Then
+        ElseIf TextBox1.Text = Var1.vx2 And TextBox2.Text = Var1.vx1 Then
             Var1.oige = Var1.oige + 1
             Label26.Text = "Õige!"
         ElseIf TextBox1.Text = "debug on" Then
@@ -143,8 +143,8 @@ Public Class Form3
             Label25.Text = ""
         ElseIf TextBox1.Text = "win" Then
             Var1.oige = Var1.oige + 5
-            Label21.Text = Var1.x1
-            Label22.Text = Var1.x2
+            Label21.Text = Var1.vx1
+            Label22.Text = Var1.vx2
         ElseIf TextBox1.Text = "boo" Then
             Var1.vale = Var1.vale + 5
             Label21.Text = ""
@@ -202,8 +202,8 @@ Public Class Form3
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Label15.Text = Var1.x1
-        Label17.Text = Var1.x2
+        Label15.Text = Var1.vx1
+        Label17.Text = Var1.vx2
         Label21.Text = ""
         Label22.Text = ""
         TextBox1.Text = ""
@@ -213,8 +213,8 @@ Public Class Form3
     End Sub
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Var1.x1 = ""
-        Var1.x2 = ""
+        Var1.vx1 = ""
+        Var1.vx2 = ""
         Dim oForm4 As Form4
         oForm4 = New Form4()
         oForm4.Show()
