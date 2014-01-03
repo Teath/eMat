@@ -28,6 +28,9 @@ Allalaadimiseks on kaks võimalust.
 
 **2) Laadida alla viimane väljaantud kompileeritud põhiversioon programmist, mille leiab siit: https://github.com/Teath/eMat/releases**
 
+3) Laadida alla vähem testitud, kuid uuem versioon programmist, mille leiab siit: https://github.com/Teath/eMat/blob/master/eMat/bin/Release/eMat.exe?raw=true
+NB! Antud versioonis võib esineda vigu, mida pole veel tuvastatud. Soovitatav on kasutada rohkem testitud ja vähemate vigadega põhiversiooni.
+
 
 Programmi käivitamiseks klõpsake allalaaditud failil.
 
