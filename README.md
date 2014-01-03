@@ -26,7 +26,7 @@ Allalaadimiseks on kaks võimalust.
 
 1) Laadida alla kogu lähtekood ning kompileerida programm ise. Selleks tuleb tõmmata alla kogu projekt. Selle meetodi kasutamine eeldab teatavat vilumust programmi Visual Studio kasutamisel.
 
-**2) Laadida alla viimane väljaantud kompileeritud põhiversioon programmist, mille leiab siit: https://github.com/Teath/eMat/releases **
+**2) Laadida alla viimane väljaantud kompileeritud põhiversioon programmist, mille leiab siit: https://github.com/Teath/eMat/releases**
 
 
 Programmi käivitamiseks klõpsake allalaaditud failil.
