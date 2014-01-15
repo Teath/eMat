@@ -131,21 +131,21 @@ Public Class Form3
         ElseIf TextBox1.Text = Var1.vx2 And TextBox2.Text = Var1.vx1 Then
             Var1.oige = Var1.oige + 1
             Label26.Text = "Õige!"
-        ElseIf TextBox1.Text = "debug on" Then
+        ElseIf TextBox1.Text = "debug on" Then 'Debug mode
             Label23.Visible = True
             Label21.Text = ""
             Label22.Text = ""
             Label25.Text = ""
-        ElseIf TextBox1.Text = "debug off" Then
+        ElseIf TextBox1.Text = "debug off" Then 'Deb off
             Label23.Visible = False
             Label21.Text = ""
             Label22.Text = ""
             Label25.Text = ""
-        ElseIf TextBox1.Text = "win" Then
+        ElseIf TextBox1.Text = "win" Then '+5 Oiget
             Var1.oige = Var1.oige + 5
             Label21.Text = Var1.vx1
             Label22.Text = Var1.vx2
-        ElseIf TextBox1.Text = "boo" Then
+        ElseIf TextBox1.Text = "boo" Then '+5 Valet
             Var1.vale = Var1.vale + 5
             Label21.Text = ""
             Label22.Text = ""

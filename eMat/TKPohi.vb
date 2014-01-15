@@ -114,7 +114,9 @@ Public Class TKPohi
         Button1.Enabled = True
         TextBox1.Enabled = True
         TextBox2.Enabled = True
-        Timer1.Enabled = True
+        If tkAjaLim Then
+            Timer1.Enabled = True
+        End If
         tkVArv = tkVArv - 1
         LblVJ.Text = tkVArv
         If tkVArv = 0 Then
@@ -198,6 +200,10 @@ Public Class TKPohi
             LblAegMin.Text = "0" & tkAegMin
         Else
             LblAegMin.Text = tkAegMin
+        End If
+        If tkAjaLim = False Then
+            LblAegMin.Text = "--"
+            LblAegSek.Text = "--"
         End If
         LblVJ.Text = tkVArv
         updateStats()

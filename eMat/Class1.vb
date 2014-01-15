@@ -30,7 +30,7 @@
     Public s_showAnswer As Boolean = True
     Public s_stats As Boolean = True
 
-    Public version As String = "v1.2.300"
+    Public version As String = "v1.2.400"
 
     Public firstLoad As Boolean = True
 End Module
