@@ -17,6 +17,7 @@ Funktsioonid:
 - Lihtne kasutada
 - Võtab väga vähe ruumi
 - Teavitab uuest versioonist
+- Tunnikontrolli režiim
 
 KUIDAS KASUTADA:
 --------------------------------------------------------
@@ -25,7 +26,10 @@ Allalaadimiseks on kaks võimalust.
 
 1) Laadida alla kogu lähtekood ning kompileerida programm ise. Selleks tuleb tõmmata alla kogu projekt. Selle meetodi kasutamine eeldab teatavat vilumust programmi Visual Studio kasutamisel.
 
-**2) Laadida alla juba kompileeritud uusim versioon. Seda saate teha klikates siia: https://github.com/Teath/eMat/blob/master/eMat/bin/Release/eMat.exe?raw=true**
+**2) Laadida alla viimane väljaantud kompileeritud põhiversioon programmist, mille leiab siit: https://github.com/Teath/eMat/releases**
+
+3) Laadida alla vähem testitud, kuid uuem versioon programmist, mille leiab siit: https://github.com/Teath/eMat/blob/master/eMat/bin/Release/eMat.exe?raw=true  
+NB! Antud versioonis võib esineda vigu, mida pole veel tuvastatud. Soovitatav on kasutada rohkem testitud ja vähemate vigadega põhiversiooni.
 
 
 Programmi käivitamiseks klõpsake allalaaditud failil.
