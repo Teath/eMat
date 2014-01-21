@@ -164,14 +164,14 @@ Public Class TKPohi
         TextBox1.Text = ""
         TextBox2.Text = ""
         updateStats()
+        If tkVArv >= 0 Then
+            genHandler()
+        End If
         If tkVArv < 0 Then
             tkVArv = 0
             finish()
         End If
         LblVJ.Text = tkVArv
-        If tkVArv > 0 Then
-            genHandler()
-        End If
     End Sub
 
     Private Sub TKPohi_Load(sender As Object, e As EventArgs) Handles MyBase.Load
