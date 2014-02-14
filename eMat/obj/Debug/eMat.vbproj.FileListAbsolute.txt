@@ -45,3 +45,7 @@ C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\obj\Debug\eMat.v
 C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\bin\Debug\eMat.exe
 C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\bin\Debug\eMat.pdb
 C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\bin\Debug\eMat.xml
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\bin\Debug\eMat.exe.config
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Debug\eMat.exe
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Debug\eMat.xml
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Debug\eMat.pdb

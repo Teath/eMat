@@ -45,3 +45,20 @@ C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.Seaded.resources
 C:\Users\Kristo\Documents\GitHub\eMat\eMat\obj\Release\eMat.vbproj.GenerateResource.Cache
 C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\obj\Release\eMat.TKPohi.resources
 C:\Users\Kristo\Documents\Visual Studio 2013\Projects\eMat\eMat\obj\Release\eMat.TKValik.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\bin\Release\eMat.exe.config
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.exe
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.xml
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.pdb
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\bin\Release\eMat.exe
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\bin\Release\eMat.pdb
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\bin\Release\eMat.xml
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Form1.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.TKPohi.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.TKValik.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Form2.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Form3.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Form4.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Info.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Resources.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.Seaded.resources
+C:\Users\Kristo0340.TPL-A1-18\Downloads\eMat-master\eMat-master\eMat\obj\Release\eMat.vbproj.GenerateResource.Cache

@@ -42,7 +42,7 @@ Public Class Form1
             End
         End Try
         Dim cleanNewVer = Regex.Match(newVer, "(v[0-9]+\.[0-9]+\.[0-9]+)").ToString
-        If cleanNewVer <> Var1.version Then
+        If cleanNewVer <> version Then
             MsgBox("Uuem versioon on saadaval! Laadige alla siit: http://teath.net/emat")
         End If
     End Sub
