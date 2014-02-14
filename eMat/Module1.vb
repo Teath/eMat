@@ -28,7 +28,7 @@
     Public tkOige As Integer = 0
     Public tkVale As Integer = 0
 
-    Public version As String = "v1.2.300"
+    Public version As String = "v1.2.500"
 
     Public firstLoad As Boolean = True
 
